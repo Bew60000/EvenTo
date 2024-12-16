@@ -43,8 +43,8 @@ export default async function EventPage({ params }: Props) {
           alt="Event background image"
           fill
           quality={50}
-          sizes="(max-width: 1280) 100vw, 1280px"
-          property=""
+          sizes="(max-width: 1280px) 100vw, 1280px"
+          priority
         />
 
         <div className="z-1 flex flex-col gap-6 lg:gap-16 lg:flex-row relative">
